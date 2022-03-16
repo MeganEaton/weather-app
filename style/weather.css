@@ -1,0 +1,138 @@
+h1,
+h4 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  padding: 0;
+  max-width: 900px;
+  max-height: 500px;
+  margin-top: 40px;
+  border: 1px solid transparent;
+  position: fixed;
+  box-sizing: content-box;
+}
+.fa-location-dot {
+  margin-left: 100px;
+  margin-right: 5px;
+  font-size: 22px;
+  position: relative;
+}
+.search-location {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-right: 5px;
+  width: 50%;
+  text-align: center;
+}
+.search-location:focus {
+  outline: none;
+}
+.search-button {
+  padding: 4px 8px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+
+.search-button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.currentLocationButton {
+  border-radius: 15px;
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+.currentLocationButton:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.f-button {
+  margin-left: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+.f-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.f-button:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+}
+.c-button {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+.c-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.c-button:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+}
+.location {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.time {
+  font-size: 30px;
+}
+.date {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.main {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 900px;
+}
+.main-image {
+  font-size: 100px;
+  text-align: center;
+}
+.main-temp {
+  font-size: 50px;
+  position: relative;
+}
+.main-high {
+  font-size: 35px;
+  position: relative;
+}
+.main-low {
+  font-size: 35px;
+  position: relative;
+}
+.main-des {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  position: relative;
+  top: -80px;
+}
+.five-days {
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+.image-five {
+  font-size: 50px;
+}
