@@ -22,6 +22,11 @@ ul {
   position: fixed;
   box-sizing: content-box;
 }
+.weather-app {
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  max-height: 683px;
+}
 .fa-location-dot {
   margin-left: 100px;
   margin-right: 5px;
