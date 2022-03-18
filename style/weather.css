@@ -141,3 +141,8 @@ ul {
 .image-five {
   font-size: 50px;
 }
+.gitHub {
+  text-align: center;
+  position: relative;
+  bottom: 90px;
+}
